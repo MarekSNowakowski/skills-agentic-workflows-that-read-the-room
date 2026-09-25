@@ -1,6 +1,6 @@
 ---
 name: update-github-info
-model: gpt-5.4
+model: copilot/auto
 on:
   schedule:
     - cron: "0 9 * * *"
