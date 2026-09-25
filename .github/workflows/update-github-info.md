@@ -1,9 +1,6 @@
 ---
 name: update-github-info
-model: copilot/auto
 on:
-  schedule:
-    - cron: "0 9 * * *"
   workflow_dispatch:
 permissions:
   contents: read
